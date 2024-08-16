@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.converter-container {
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    border: 2px solid black;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #333;
+}
+
+.currency-input {
+    margin-bottom: 1em;
+}
+
+input, select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c86ee;
+}
+
+.result {
+    margin-top: 1.5em;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+#converted-value {
+    font-size: 24px;
+    color: #27ae60;
+    font-weight: bold;
+}
+p{
+    width: 100;
+    height: 50;
+    color: black;
+    
+    border-bottom: 2px solid black;
+}

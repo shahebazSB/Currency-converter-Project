@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styleSheet.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1><u>Currency Converter</u></h1>
+        <div class="currency-input">
+            <input type="number" id="amount" placeholder="Enter amount" />
+            <select id="currency">
+                <!-- Options will be generated dynamically -->
+            </select>
+            <button id="convert-btn">Convert to INR</button>
+        </div>
+        <div class="result">
+            <h2>Converted Amount:</h2>
+
+            <p id="converted-value"> ₹ 0.00</p>
+        </div>
+        <img src="india.avif" width="100" height="50">
+    </div>
+    <script src="javaScript.js"></script>
+    
+</body>
+</html>
